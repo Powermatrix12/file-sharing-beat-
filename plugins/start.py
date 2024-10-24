@@ -110,7 +110,7 @@ async def start_command(client: Client, message: Message):
                         pass
                 if (SECONDS == 0):
                     return
-                notification_msg = await message.reply(f"<b>🌺 <u>❗️❗️❗️IMPORTANT❗️️❗️❗️\n\n<b>ᴛʜɪꜱ ᴠɪᴅᴇᴏ ᴡɪʟʟ ʙᴇ ᴅᴇʟᴇᴛᴇᴅ ɪɴ {get_exp_time(SECONDS)} 🕥 \n\n<b>❤️ Keep supporting us❤️.</b>")
+                notification_msg = await message.reply(f"<b> <u>❗️❗️❗️IMPORTANT❗️️❗️❗️\n\n<b>ᴛʜɪꜱ ᴠɪᴅᴇᴏ ᴡɪʟʟ ʙᴇ ᴅᴇʟᴇᴛᴇᴅ ɪɴ {get_exp_time(SECONDS)} 🕥 \n\n<b>❤️ Keep supporting us❤️.</b>")
                 await asyncio.sleep(SECONDS)    
                 for snt_msg in snt_msgs:    
                     try:    
@@ -173,7 +173,7 @@ async def start_command(client: Client, message: Message):
                 if snt_msgs:
                     if (SECONDS == 0):
                         return
-                    notification_msg = await message.reply(f"<b>🌺 <u>❗️❗️❗️IMPORTANT❗️️❗️❗️\n\n<b>ᴛʜɪꜱ ᴠɪᴅᴇᴏ ᴡɪʟʟ ʙᴇ ᴅᴇʟᴇᴛᴇᴅ ɪɴ {get_exp_time(SECONDS)} 🕥 \n\n❤️ Keep supporting us❤️.</b>")
+                    notification_msg = await message.reply(f"<b> <u>❗️❗️❗️IMPORTANT❗️️❗️❗️\n\n<b>ᴛʜɪꜱ ᴠɪᴅᴇᴏ ᴡɪʟʟ ʙᴇ ᴅᴇʟᴇᴛᴇᴅ ɪɴ {get_exp_time(SECONDS)} 🕥 \n\n❤️ Keep supporting us❤️.</b>")
                     await asyncio.sleep(SECONDS)    
                     for snt_msg in snt_msgs:    
                         try:    
